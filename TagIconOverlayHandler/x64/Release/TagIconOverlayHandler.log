@@ -1,36 +1,4 @@
-﻿  64 bit Processing .\TagIconOverlayHandler.idl
-  TagIconOverlayHandler.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oaidl.idl
-  oaidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.idl
-  objidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\unknwn.idl
-  unknwn.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\wtypes.idl
-  wtypes.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\wtypesbase.idl
-  wtypesbase.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\basetsd.h
-  basetsd.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\guiddef.h
-  guiddef.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ocidl.idl
-  ocidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.idl
-  oleidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.idl
-  servprov.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\urlmon.idl
-  urlmon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\msxml.idl
-  msxml.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oaidl.acf
-  oaidl.acf
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ocidl.acf
-  ocidl.acf
-  stdafx.cpp
-  dllmain.cpp
-  TagDataReader.cpp
+﻿  TagDataReader.cpp
 D:\git\cpp\TagIconOverlayHandler\TagIconOverlayHandler\CryptDictionary.h(2,141): warning C4838: 从“int”转换到“DWORD”需要收缩转换
 D:\git\cpp\TagIconOverlayHandler\TagIconOverlayHandler\CryptDictionary.h(2,154): warning C4838: 从“int”转换到“DWORD”需要收缩转换
 D:\git\cpp\TagIconOverlayHandler\TagIconOverlayHandler\CryptDictionary.h(2,166): warning C4838: 从“int”转换到“DWORD”需要收缩转换
@@ -1160,12 +1128,4 @@ D:\git\cpp\TagIconOverlayHandler\TagIconOverlayHandler\CryptDictionary.h(29,2979
 D:\git\cpp\TagIconOverlayHandler\TagIconOverlayHandler\CryptDictionary.h(29,2992): warning C4838: 从“int”转换到“DWORD”需要收缩转换
 D:\git\cpp\TagIconOverlayHandler\TagIconOverlayHandler\CryptDictionary.h(29,3004): warning C4838: 从“int”转换到“DWORD”需要收缩转换
 D:\git\cpp\TagIconOverlayHandler\TagIconOverlayHandler\CryptDictionary.h(29,3063): warning C4838: 从“int”转换到“DWORD”需要收缩转换
-D:\git\cpp\TagIconOverlayHandler\TagIconOverlayHandler\TagDataReader.cpp(55,13): warning C4101: “e”: 未引用的局部变量
-  TagIconOverlayHandler.cpp
-  TagIconOverlayShlExt.cpp
-  正在生成代码...
-  TagIconOverlayHandler_i.c
-  xdlldata.c
-  正在生成代码...
-    正在创建库 D:\git\cpp\TagIconOverlayHandler\x64\Release\TagIconOverlayHandler.lib 和对象 D:\git\cpp\TagIconOverlayHandler\x64\Release\TagIconOverlayHandler.exp
-  TagIconOverlayHandler.vcxproj -> D:\git\cpp\TagIconOverlayHandler\x64\Release\TagIconOverlayHandler.dll
+D:\git\cpp\TagIconOverlayHandler\TagIconOverlayHandler\TagDataReader.cpp(56,13): warning C4101: “e”: 未引用的局部变量

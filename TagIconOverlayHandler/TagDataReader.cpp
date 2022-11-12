@@ -27,11 +27,12 @@ bool CTagDataReader::detectTagData(PCWSTR pwszPath)
 		// 水印文件的大小一定大于一个簇
 		if (pli->QuadPart == 0 || pli->LowPart <= 4096 || pli->QuadPart % dwBytesToRead > 0) throw(-1);
 		DWORD dwBytesRead = 0;
-		BYTE lpBuffer[1020];
+		BYTE lpBuffer[1020] { 0 };
 		// 从文件结尾向后读取一个扇区的字节数
 		SetFilePointer(hFile, -(LONG)dwBytesToRead, NULL, FILE_END);
-		ReadFile(hFile, lpBuffer, dwBytesToRead, &dwBytesRead, NULL);
-
+		BOOL ret{};
+		ret = ReadFile(hFile, lpBuffer, dwBytesToRead, &dwBytesRead, NULL);
+		if (!ret) throw(-1);
 		if (dwBytesRead != dwBytesToRead) throw(-1);
 		// LONGLONG dwRemainingBytes = pli->QuadPart - (LONGLONG)dwBytesToRead;
 		// 512 << 4 == 32
