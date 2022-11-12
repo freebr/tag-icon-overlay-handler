@@ -1,0 +1,27 @@
+if (numreq++ == 0) {
+	wchar_t s[100] = L"";
+	/*wcscat_s(s, wcslen(pwszRootPath) + 1, pwszRootPath);
+	wchar_t n[100];
+	_ltow_s(dwBytesToRead, n, 10, 10);
+	wcscat_s(s, wcslen(s) + wcslen(n) + 1, n);*/
+	wchar_t n[100];
+	_ltow_s(lpBuffer[137+371], n, 12, 10);
+	wcscat_s(s, wcslen(s) + wcslen(n) + 1, n);
+	_ltow_s(lpBuffer[137 + 372], n, 12, 10);
+	wcscat_s(s, wcslen(s) + 2, L",");
+	wcscat_s(s, wcslen(s) + wcslen(n) + 1, n);
+	_ltow_s(lpBuffer[137 + 373], n, 12, 10);
+	wcscat_s(s, wcslen(s) + 2, L",");
+	wcscat_s(s, wcslen(s) + wcslen(n) + 1, n);
+	_ltow_s(lpBuffer[137 + 374], n, 12, 10);
+	wcscat_s(s, wcslen(s) + 2, L",");
+	wcscat_s(s, wcslen(s) + wcslen(n) + 1, n);
+	AfxMessageBox(s);
+}
+return true;
+
+if (numreq++ == 0) {
+	wchar_t n[100] = L"";
+	_ltow_s(dwBytesRead, n, 12, 10);
+	AfxMessageBox(n);
+}

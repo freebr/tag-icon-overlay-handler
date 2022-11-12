@@ -1,0 +1,51 @@
+HKCR
+{
+	gz.TagIconOverlayShlExt.1 = s 'TagIconOverlayShlExt Class'
+	{
+		CLSID = s '{33177D20-AAE9-4D63-AD9E-86BF0377F923}'
+	}
+	gz.TagIconOverlayShlExt = s 'TagIconOverlayShlExt Class'
+	{		
+		CurVer = s 'gz.TagIconOverlayShlExt.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {33177D20-AAE9-4D63-AD9E-86BF0377F923} = s 'TagIconOverlayShlExt Class'
+		{
+			ProgID = s 'gz.TagIconOverlayShlExt.1'
+			VersionIndependentProgID = s 'gz.TagIconOverlayShlExt'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{3740AE8A-2DA2-482D-91EF-18C6538F26F7}'
+			Version = s '1.0'
+		}
+	}
+}
+
+HKLM
+{
+	NoRemove SOFTWARE
+	{
+		NoRemove Microsoft
+		{
+			NoRemove Windows
+			{
+				NoRemove CurrentVersion
+				{
+					NoRemove Explorer
+					{
+						NoRemove ShellIconOverlayIdentifiers
+						{
+							ForceRemove '   TagIconOverlay' = s '{33177D20-AAE9-4D63-AD9E-86BF0377F923}'
+							{
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

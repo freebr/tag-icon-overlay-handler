@@ -1,0 +1,5 @@
+﻿    正在创建库 D:\git\cpp\TagIconOverlayHandler\Release\TagIconOverlayHandler.lib 和对象 D:\git\cpp\TagIconOverlayHandler\Release\TagIconOverlayHandler.exp
+  TagIconOverlayHandler.vcxproj -> D:\git\cpp\TagIconOverlayHandler\Release\TagIconOverlayHandler.dll
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(2301,5): warning MSB3075: 命令“regsvr32 /s "D:\git\cpp\TagIconOverlayHandler\Release\TagIconOverlayHandler.dll"”已退出，代码为 5。请验证您是否拥有运行此命令的足够权限。
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(2301,5): warning MSB4181: “Exec”任务返回了 false，但未记录错误。
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(2313,5): error MSB8011: 未能注册输出。请尝试启用“逐用户重定向”，或者使用提升的权限从命令提示符处注册该组件。

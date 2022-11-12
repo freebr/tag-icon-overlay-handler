@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TagIconOverlayHandler", "TagIconOverlayHandler\TagIconOverlayHandler.vcxproj", "{738768CD-4C2D-4922-9C09-86D20F83C468}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{738768CD-4C2D-4922-9C09-86D20F83C468}.Debug|Win32.ActiveCfg = Debug|Win32
+		{738768CD-4C2D-4922-9C09-86D20F83C468}.Debug|Win32.Build.0 = Debug|Win32
+		{738768CD-4C2D-4922-9C09-86D20F83C468}.Debug|x64.ActiveCfg = Debug|x64
+		{738768CD-4C2D-4922-9C09-86D20F83C468}.Debug|x64.Build.0 = Debug|x64
+		{738768CD-4C2D-4922-9C09-86D20F83C468}.Release|Win32.ActiveCfg = Release|Win32
+		{738768CD-4C2D-4922-9C09-86D20F83C468}.Release|Win32.Build.0 = Release|Win32
+		{738768CD-4C2D-4922-9C09-86D20F83C468}.Release|x64.ActiveCfg = Release|x64
+		{738768CD-4C2D-4922-9C09-86D20F83C468}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35BD659B-7D45-45DF-8845-4AE8E9FE5115}
+	EndGlobalSection
+EndGlobal

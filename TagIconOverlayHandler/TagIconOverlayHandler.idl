@@ -1,0 +1,34 @@
+// TagIconOverlayHandler.idl : TagIconOverlayHandler 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(TagIconOverlayHandler.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(C339978C-9102-424E-8188-D35A7597BEDD),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ITagIconOverlayShlExt : IDispatch{
+};
+[
+	uuid(3740AE8A-2DA2-482D-91EF-18C6538F26F7),
+	version(1.0),
+]
+library TagIconOverlayHandlerLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(33177D20-AAE9-4D63-AD9E-86BF0377F923)
+	]
+	coclass TagIconOverlayShlExt
+	{
+		[default] interface ITagIconOverlayShlExt;
+	};
+};
+
